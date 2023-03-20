@@ -9,7 +9,7 @@ arch:
   - armhf
   - armv7
   - i386
-image: ghcr.io/your-username/homeassistant-kdeconnect-addon
+image: ghcr.io/jannis3005/homeassistant-kdeconnect-addon
 startup: before
 options:
   device_name:
