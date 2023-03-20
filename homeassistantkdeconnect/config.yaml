@@ -1,0 +1,21 @@
+name: KDE Connect
+version: dev
+slug: kdeconnect
+description: Use KDE Connect to integrate your Android devices with Home Assistant.
+url: https://github.com/jannis3005/homeassistantkdeconnect-addon
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+image: ghcr.io/your-username/homeassistant-kdeconnect-addon
+startup: before
+options:
+  device_name:
+    name: Device Name
+    required: true
+    description: The name of the device that will be shown in KDE Connect.
+schema:
+  device_name:
+    type: string

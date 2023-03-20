@@ -1,0 +1,9 @@
+[options]
+  image = ghcr.io/jannis3005/homeassistant-kdeconnect-addon
+  name = Home Assistant KDE Connect Add-on
+  description = An add-on for Home Assistant that enables communication with KDE Connect
+  version = 1.0
+  arch = armhf,armv7,aarch64,amd64,i386
+  author = Jannis Göing <jannis@jannis-goeing.de>
+  apparmor = profile
+  dockerfile = Dockerfile
