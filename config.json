@@ -1,0 +1,15 @@
+{
+  "slug": "kde-connect",
+  "name": "KDE Connect",
+  "version": "1.0.0",
+  "description": "An addon for running KDE Connect on Home Assistant.",
+  "startup": "services",
+  "services": [
+    {
+      "type": "dbus",
+      "name": "kdeconnectd",
+      "bus": "session",
+      "socket": "/run/dbus/session_bus/kdeconnectd.socket"
+    }
+  ]
+}
