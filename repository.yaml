@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: KDE Connect
+url: 'https://github.com/jannis3005/homeassistantkdeconnect-addon'
+maintainer: Jannis Göing <jannis@jannis-goeing.de>
